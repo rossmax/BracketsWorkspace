@@ -1,0 +1,122 @@
+html, body {
+	background-color: #ddd;
+	min-width: 860px;
+    display: inline;
+}
+
+
+h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222222;
+    font-size: 70px;
+    margin: 5px;
+}
+p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222222;
+    font-size: 35px;
+    margin: 5px;
+}
+
+p1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222222;
+    font-size: 20px;
+    margin: 5px;
+}
+h h2, h3, h4, h5, h6, p, li, span {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222222;
+}
+a {
+	color: #222222;
+	font-weight: bold;
+}
+	a:hover {
+		text-decoration: none;
+	}
+
+
+button {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: #EEEEEE;
+	background-color: #25567B;
+	border: none;
+	margin: 1em auto 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+    display: inline-block;
+}
+	button:hover {
+		cursor: pointer;
+		background-color: #ffffff;
+	}
+	button:active {
+		background-color: #99C2E1;
+	}
+
+	#place-randomly,
+	#restart-game {
+		position: relative;
+		color: #FFFFFF;
+		background-color: #FF9200;
+	}
+		#start-game:hover,
+		#place-randomly:hover,
+		#restart-game:hover {
+			background-color: #FFB655;
+		}
+		#start-game:active,
+		#place-randomly:active,
+		#restart-game:active {
+			background-color: #FFCE8E;
+		}
+
+
+.container {
+	width: 870px;
+	text-align: center;
+	margin: 20px auto 30px auto;
+}
+
+
+#game table, #game tbody, #game td{
+    display: inline-block;
+}
+
+
+
+
+#roster-sidebar, #stats-sidebar, #restart-sidebar {
+        width: auto;
+		padding:  5px;
+        margin-left: 28%;
+        margin-right: 28%;
+        background-color: lightgrey;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+        text-align: center;
+
+
+	}
+	#roster-sidebar, #restart-sidebar {
+		left: -200px;
+	}
+
+
+		#roster-sidebar h2, #stats-sidebar h2, #restart-sidebar h2 {
+			margin: 0 0 1em 0;
+			text-align: center;
+		}
+
+form {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222222;
+    text-align: center;
+
+}
+
+
+

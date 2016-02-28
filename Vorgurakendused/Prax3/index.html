@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Max Ross| Prax2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Battleship.js</h1>
+        <p1>Player's take turns guessing by calling out the coordinates. The opponent responds with "hit" or "miss" as appropriate. Both players should mark their board with pegs: red for hit, white for miss. When all of the squares that one your ships occupies have been hit, the ship will be sunk. You should announce "hit and sunk". In the physical game, a red peg is placed on the top edge of the vertical board to indicate a sunk ship. As soon as all of one player's ships have been sunk, the game ends</p1>
+
+    </div>
+
+    <form action="py/register2.py">
+        <label>Username:
+            <input type="text" name="usernameField" id="usernameField"
+                   placeholder="Usernames">
+        </label>
+        <label>Message:
+            <input type="text" name="" id="messageField"
+                   placeholder="Type a message">
+        </label>
+        <button type="button" onclick="py/register2.py" id="send">Enter</button>
+    </form>
+
+
+
+
+        <div id="game">
+        <div id="stats-sidebar">
+            <p><strong>Games Won</strong></p>
+            <p id="stats-wins">0 of 0</p>
+            <button id="reset-stats">Reset Stats</button>
+            <button id="prob-heatmap" class="hidden">Show Probability Heatmap</button>
+            </div>
+            <script src="js/script.js"></script>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+
+</html>
